@@ -46,7 +46,7 @@ jobs:
       uses: Eun/http-server-action@v1.0.11
       with:
         directory: .
-        port: 5500
+        port: 5502
         index-files: |
           ["index.html", "index.htm"]           
     - name: Run tests
